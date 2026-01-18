@@ -1,0 +1,10 @@
+{
+  "policy_id": "pii_block_input",
+  "enable_pii_filter": true,
+  "pii_action": "block",
+  "pii_check_input": true,
+  "pii_check_output": true,
+  "pii_types": ["EMAIL_ADDRESS", "PHONE_NUMBER"],
+  "pii_min_confidence": 0.5,
+  "pii_language": "en"
+}

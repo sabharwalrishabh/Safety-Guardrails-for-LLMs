@@ -1,0 +1,14 @@
+{
+  "policy_id": "denied_block",
+  "enable_denied_topics": true,
+  "denied_topics_action": "block",
+  "denied_topics_check_input": true,
+  "denied_topics_check_output": true,
+  "denied_topics": [
+    {
+      "name": "Company Confidential",
+      "definition": "Internal project names, secrets, or confidential identifiers that must never appear.",
+      "keywords": ["projectx", "internal-only-codeword"]
+    }
+  ]
+}

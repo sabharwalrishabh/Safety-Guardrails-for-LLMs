@@ -1,0 +1,14 @@
+{
+  "policy_id": "default",
+  "enable_profanity_filter": false,
+  "enable_custom_blocklist": false,
+  "blocked_phrases": [],
+  "enable_pii_filter": false,
+  "pii_types": [],
+  "enable_prompt_injection": false,
+  "enable_harm_classification": false,
+  "enable_denied_topics": false,
+  "denied_topics": [],
+  "enable_grounding": false,
+  "grounding_threshold": 0.8
+}

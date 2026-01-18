@@ -1,0 +1,8 @@
+{
+  "policy_id": "output_only",
+  "enable_custom_blocklist": true,
+  "blocklist_action": "block",
+  "blocklist_check_input": false,
+  "blocklist_check_output": true,
+  "blocked_phrases": ["topsecret"]
+}

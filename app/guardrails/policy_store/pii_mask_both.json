@@ -1,0 +1,11 @@
+{
+  "policy_id": "pii_mask_both",
+  "enable_pii_filter": true,
+  "pii_action": "mask",
+  "pii_check_input": true,
+  "pii_check_output": true,
+  "pii_types": ["EMAIL_ADDRESS", "PHONE_NUMBER"],
+  "pii_min_confidence": 0.5,
+  "pii_mask_token": "***",
+  "pii_language": "en"
+}

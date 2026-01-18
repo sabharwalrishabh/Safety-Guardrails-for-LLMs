@@ -1,0 +1,18 @@
+{
+  "policy_id": "output_only_repair",
+  "enable_denied_topics": true,
+  "denied_topics_action": "block",
+  "denied_topics_check_input": false,
+  "denied_topics_check_output": true,
+  "denied_topics": [
+    {
+      "name": "Company Confidential",
+      "definition": "Internal codewords should not be emitted by the assistant.",
+      "keywords": ["projectx"]
+    }
+  ],
+  "enable_repair": true,
+  "repair_max_attempts": 2,
+  "repair_style": "rewrite_then_refuse",
+  "repair_temperature": 0.2
+}

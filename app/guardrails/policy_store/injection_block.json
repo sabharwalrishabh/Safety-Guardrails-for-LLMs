@@ -1,0 +1,7 @@
+{
+  "policy_id": "injection_block",
+  "enable_prompt_injection": true,
+  "prompt_injection_action": "block",
+  "prompt_injection_threshold": 0.7,
+  "prompt_injection_check_input": true
+}

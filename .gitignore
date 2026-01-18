@@ -1,0 +1,5 @@
+/.DS_Store
+/safety/app/__pycache__/
+/safety/app/*.pyc
+/safety/app/api/__pycache__/
+/safety/app/api/*.pyc

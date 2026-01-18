@@ -1,0 +1,13 @@
+{
+  "policy_id": "strict",
+  "enable_profanity_filter": true,
+  "profanity_action": "block",
+  "profanity_check_input": true,
+  "profanity_check_output": true,
+
+  "enable_custom_blocklist": true,
+  "blocklist_action": "block",
+  "blocklist_check_input": true,
+  "blocklist_check_output": true,
+  "blocked_phrases": ["topsecret"]
+}

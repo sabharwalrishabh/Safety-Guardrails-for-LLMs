@@ -1,0 +1,81 @@
+{
+  "policy_id": "interactive",
+  "enable_profanity_filter": true,
+  "profanity_action": "warn",
+  "profanity_check_input": true,
+  "profanity_check_output": true,
+  "profanity_words": [
+    "fuck",
+    "shit",
+    "bitch",
+    "asshole",
+    "sex",
+    "joey",
+    "hell",
+    "whiskey"
+  ],
+  "enable_custom_blocklist": true,
+  "blocklist_action": "block",
+  "blocklist_check_input": true,
+  "blocklist_check_output": true,
+  "blocked_phrases": [
+    "niggas",
+    "rape",
+    "chandler",
+    "medicine",
+    "doctor prescribed"
+  ],
+  "enable_pii_filter": true,
+  "pii_action": "mask",
+  "pii_check_input": true,
+  "pii_check_output": true,
+  "pii_types": [
+    "EMAIL_ADDRESS",
+    "PHONE_NUMBER"
+  ],
+  "pii_min_confidence": 0.6,
+  "pii_mask_token": "***",
+  "pii_language": "en",
+  "enable_prompt_injection": false,
+  "prompt_injection_action": "block",
+  "prompt_injection_threshold": 0.8,
+  "prompt_injection_check_input": true,
+  "enable_denied_topics": true,
+  "denied_topics_action": "block",
+  "denied_topics_check_input": true,
+  "denied_topics_check_output": true,
+  "denied_topics": [
+    {
+      "name": "medical",
+      "definition": "",
+      "keywords": [
+        "paracetamol",
+        "injection"
+      ]
+    }
+  ],
+  "enable_harm_classes": true,
+  "harm_classes_action": "warn",
+  "harm_classes_check_input": true,
+  "harm_classes_check_output": false,
+  "harm_class_thresholds": {
+    "hate": 0.6,
+    "insults": 0.6,
+    "sexual": 0.6,
+    "violence": 0.6
+  },
+  "harm_class_enabled": {
+    "hate": true,
+    "insults": true,
+    "sexual": true,
+    "violence": true
+  },
+  "harm_hard_block_threshold": 0.9,
+  "enable_repair": true,
+  "repair_max_attempts": 2,
+  "repair_style": "rewrite_then_refuse",
+  "repair_temperature": 0.2,
+  "repair_model": "",
+  "enable_grounding": false,
+  "grounding_threshold": 0.8
+}

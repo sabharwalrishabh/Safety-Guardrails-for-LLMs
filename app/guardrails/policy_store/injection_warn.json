@@ -1,0 +1,7 @@
+{
+  "policy_id": "injection_warn",
+  "enable_prompt_injection": true,
+  "prompt_injection_action": "warn",
+  "prompt_injection_threshold": 0.20,
+  "prompt_injection_check_input": true
+}
