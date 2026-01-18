@@ -132,7 +132,7 @@ streamlit run ui/app.py
 
 **Screenshot placeholder** (add later):
 
-![Streamlit UI screenshot](docs/streamlit_ui.png)
+![Streamlit UI screenshot](Guardrails Gateway Demo.png)
 
 
 ## Policy configuration
